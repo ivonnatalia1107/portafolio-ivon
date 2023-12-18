@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: 'Dashboard del Clima',
-    description: 'Aplicación para saber en tiempo real el clima de cualquier lugar del mundo. Desarrollada con HTML, CSS, JavaScript, Chart JS. Consume datos de la API de OpenWeatherMap.',
+    description: 'Aplicación para obtener en tiempo real el clima de cualquier lugar del mundo. Desarrollada con HTML, CSS, JavaScript, Chart JS. Consume datos de la API de OpenWeatherMap.',
     bgCardImage: 'https://res.cloudinary.com/duybxe2k2/image/upload/v1702162109/Portafolio%20UDD/AppClima_qiji1i.jpg',
     urlPage: 'https://ivonnatalia1107.github.io/Proyecto_3_DashBoard/',
     urlCode: 'https://github.com/ivonnatalia1107/Proyecto_3_DashBoard.git',
@@ -32,19 +32,19 @@ const projects = [
   },
   {
     title: 'App para Restaurant',
-    description: 'Aplicación para saber en tiempo real el clima de cualquier lugar del mundo. Desarrollada con HTML, CSS, JavaScript, Chart JS. Consume datos de la API de OpenWeatherMap.',
+    description: 'Página Web de un servicio de comida, con navegación entre diferentes pestañas',
     bgCardImage: 'https://res.cloudinary.com/duybxe2k2/image/upload/v1702162109/Portafolio%20UDD/MenuRestaurant_gcgkz0.jpg',
     urlPage: 'https://ivonnatalia1107.github.io/proyecto-app-restaurant/',
     urlCode: 'https://github.com/ivonnatalia1107/proyecto-app-restaurant.git',
     urlInsignia:"https://www.credly.com/badges/33e937ab-3284-4c89-9d9e-5f4a8a3a3c3a"
   },
   {
-    title: 'App para Restaurant',
-    description: 'Aplicación para saber en tiempo real el clima de cualquier lugar del mundo. Desarrollada con HTML, CSS, JavaScript, Chart JS. Consume datos de la API de OpenWeatherMap.',
-    bgCardImage: 'https://res.cloudinary.com/duybxe2k2/image/upload/v1702162109/Portafolio%20UDD/MenuRestaurant_gcgkz0.jpg',
-    urlPage: 'https://ivonnatalia1107.github.io/proyecto-app-restaurant/',
-    urlCode: 'https://github.com/ivonnatalia1107/proyecto-app-restaurant.git',
-    urlInsignia:"https://www.credly.com/badges/33e937ab-3284-4c89-9d9e-5f4a8a3a3c3a"
+    title: 'Comercio electrónico',
+    description: 'Comercio electrónico desarrollado con React JS. Obtiene y guarda información desde un base de datos, está conectada con Mercado Pago y tiene registro e inicio de sesión',
+    bgCardImage: 'https://res.cloudinary.com/duybxe2k2/image/upload/v1702162109/Portafolio%20UDD/ECommerce_gdkljz.jpg',
+    urlPage: 'https://ivonnatalia1107.github.io/proyecto-e-commerce/',
+    urlCode: 'https://github.com/ivonnatalia1107/proyecto-e-commerce',
+    urlInsignia:""
   },
 ]
 

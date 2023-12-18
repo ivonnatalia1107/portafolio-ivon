@@ -4,6 +4,10 @@ import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
 const links = [
   {
+    name: "Inicio",
+    href: "/"
+  },
+  {
     name: "Sobre Mi",
     href: "/about"
   },

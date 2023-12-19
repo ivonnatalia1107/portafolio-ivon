@@ -70,32 +70,49 @@ export const ProjectCard = () => {
   return (
 
     <>
+    
+
+<div className="bgWrap">
+                <Image
+                    alt="BG"
+                    src="https://res.cloudinary.com/duybxe2k2/image/upload/v1702850776/Portafolio%20UDD/website_ral57e.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={100}
+                />
+            </div>
+<container className=" flex flex-col center-center " > 
       {projects.map((project, i) => (
-        <div key={i} >
+        <div key={i} className=" flex justify-center items-center " >
           <motion.div
             variants={variants}
             initial="hidden"
             animate="visible"
-            className={`w-full relative md:w-96 p-5 min-h-[200px]  border  border-gray-800 rounded shadow m-5 group`}
+            className={`w-10/12 relative p-5 min-h-[250px]  border  border-gray-800 rounded shadow m-3 group`}
           >
-            <div className="w-full h-full absolute top-0 left-0 -z-10 rounded">
+
+            <div className="w-full h-full absolute top-0 left-0 rounded flex justify-center items-center ">
               <Image
                 src={project.bgCardImage}
                 alt={project.title}
                 layout="fill"
                 objectFit="cover"
-                className="rounded -z-10 top-0 left-0"
+                className="rounded "
               />
             </div>
-            <div className="bg-gray-900 bg-opacity-50 rounded p-2 backdrop-blur-md">
+
+            <div className="bg-gray-900 bg-opacity-50 rounded p-2 backdrop-blur-md  ">
               <h3 className="font-bold text-lg text-white">{project.title}</h3>
               <p className="text-gray-400">{project.description}</p>
             </div>
-            <div className="absolute hidden group-hover:flex bg-gray-900/80 w-full left-0 top-0 h-full transition-all flex-col justify-around items-center p-12 gap-2 backdrop-blur-sm">
-              <h3 className="text-white">
+
+            <div className="absolute hidden group-hover:flex bg-gray-900/80 w-full left-0 top-0 h-full transition-all flex-col p-3 gap-2 backdrop-blur-sm">
+             <div className="flex text-justify">
+              <h3 className="text-white ">
                 Puedes ver mas detalles de este proyecto en los siguientes enlaces:
               </h3>
-              <div className="flex flex-row gap-5">
+              </div>
+              <div className="flex flex-row flex-wrap justify-around items-center gap-2">
                 <Link href={project.urlPage} className="bg-fuchsia-700 hover:bg-fuchsia-600 text-white font-bold py-2 px-2 rounded-xl mt-4">
                   Despliegue
                 </Link>
@@ -110,7 +127,7 @@ export const ProjectCard = () => {
           </motion.div >
         </div>
       ))}
-
+</container>
     </>
 
   );

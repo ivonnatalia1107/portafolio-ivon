@@ -19,12 +19,16 @@ export default function contact() {
 
       < div className="flex flex-col justify-center items-center">
         <div>
-          <h1 className="text-3xl mb-5 font-bold
-bg-gray-200 p-2 rounded opacity-90 m-5 text-center">Contáctame a través de:</h1>
+          <h2 className="text-3xl mb-5 font-bold
+bg-gray-200 p-2 rounded opacity-90 m-5 text-center">Contáctame a través de:</h2>
         </div>
         <div className="text-xl px-5 bg-gray-200 p-4 rounded opacity-90 text-center m-5">
-          <Link href="https://www.linkedin.com/in/ivonnancupilmiranda/"> Perfil de LinkedIn</Link>
+          <Link  className="hover:bg-fuchsia-600 underline " href="https://www.linkedin.com/in/ivonnancupilmiranda/"> Perfil de <b>LinkedIn</b></Link>
         </div>
+        <div className="text-xl px-5 bg-gray-200 p-4 rounded opacity-90 text-center m-5">
+        <p> <b>Gmail:</b> ivon.natalia.1107@gmail.com</p>
+        </div>
+
       </div>
 
     </>
